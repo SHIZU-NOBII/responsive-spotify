@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- STYLESHEET LINK -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- JAVASCRIPT LINK -->
+    <script src="./js/main.js" defer></script>
+
+    <title>Spotify | Clone</title>
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="left m-0">
+        <img src="./img/close.svg" alt="" class="invert close">
+        <div class="box-1 m-0 p-0 radius">
+          <div class="logo">
+            <img src="./img/logo.svg" alt="" class="invert" />
+          </div>
+
+          <ul>
+            <li>
+              <img src="./img/home.svg" alt="" class="invert" /><span
+                >HOME</span
+              >
+            </li>
+            <li>
+              <img src="./img/search.svg" alt="" class="invert" /><span
+                >SEARCH</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="box-2 m-0 p-0 radius">
+          <div class="box-2-head">
+            <img src="./img/playlist.svg" alt="" class="invert" />
+            <h3>Your Playlist</h3>
+          </div>
+
+          <div class="song-list">
+            <ul>
+             
+            
+           </ul>
+          </div>
+
+          <div class="footer">
+            <ul>
+                <li><a href="">Privacy</a></li>
+                <li><a href="">Copyright</a></li>
+                <li><a href="">Lience</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="right m-0 p-0 radius">
+         <nav class="nav">
+            <div class="links">
+                <img src="./img/hamburger.svg" alt="" class="invert hamburger">
+                <img src="./img/left.svg" alt="" class="invert">
+                <img src="./img/right.svg" alt="" class="invert">
+            </div>
+            <div class="buttons">
+                <button class="btn">Sign Up</button>
+                <button class="btn-alt">Log In</button>
+            </div>
+         </nav>
+
+         <div class="playlist">
+            <h2>Spotify Playlist</h2>
+
+            <div class="playlist-container">
+                <!-- <div class="card" data-folder="AUR">
+                    <div class="card-info">
+                        <img src="./img/cover.jpg" alt="" width="200px" height="auto">
+                        <div class="play-icon">
+                            <img src="./img/play.svg" alt="" class="invert" width="15px">
+                        </div>
+                    </div>
+                    <div class="card-data">
+                        <h4>Top Hits</h4>
+                        <p>Music is the way to relax your mind</p>
+                    </div>
+                </div>
+                
+                <div class="card" data-folder="CS">
+                    <div class="card-info">
+                        <img src="./img/cover.jpg" alt="" width="200px" height="auto">
+                        <div class="play-icon">
+                            <img src="./img/play.svg" alt="" class="invert" width="15px">
+                        </div>
+                    </div>
+                    <div class="card-data">
+                        <h4>Top Hits</h4>
+                        <p>Music is the way to relax your mind</p>
+                    </div>
+                </div> -->
+                
+            </div>
+
+        </div>
+        <div class="playbar">
+            <div class="playbar-top">
+                <div class="song-name"></div>
+                <div class="song-btns">
+                    <img src="./img/prevsong.svg" alt="" class="invert" id="previous">
+                    <img src="./img/play.svg" alt="" class="invert" id="play">
+                    <img src="./img/nextsong.svg" alt="" class="invert" id="next">
+                </div>
+                <div class="song-time">
+                    <div class="song-currunt-time"></div>
+                    <div class="volume">
+                        <img src="./img/volume.svg" alt="" class="invert">
+                        <div class="range">
+                            <input type="range" name="range">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="seekbar">
+                <div class="circle"></div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
